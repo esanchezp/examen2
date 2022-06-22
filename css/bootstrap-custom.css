@@ -1,36 +1,43 @@
-.navbar-light {
-	background-color:transparent !important;
-	font-size:18px;	
+a{
+	outline:0 !important;	
 }
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;
+}
+.navbar-light .navbar-nav li{
+	padding-right: 15px;
+}
+
 .navbar-light .navbar-nav .nav-link{
-	color:var(--color-negro);	
-	font-weight:400;
+	color:#333;	
+	font-weight:600;
+	padding: 8px 10px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-	color:var(--menu-hover);
+	color:var(--color-azul);
 }
 .navbar-light .navbar-nav .active .nav-link{
-	background-color:transparent;
-	color:var(--menu-hover);
+	background-color: var(--color-azul);
+	color:var(--color-naranja);
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
-	background-color:transparent;
-	color:var(--menu-hover);
+	color:var(--color-naranja);
 }
 
 
 
 .navbar-light .navbar-nav .show > .nav-link{
-	color: #fff;	
+	color: #ABA19F;	
 }
 .navbar-light .navbar-nav .show > .nav-link:focus,
 .navbar-light .navbar-nav .show > .nav-link:hover{
-    color: #fff;
+    color: #ABA19F;
     background-color: transparent;
 }
 
 .dropdown-menu{
-	background-color:#212121;
+	background-color:#3D3D3D;
 	border:0;
 }
 .dropdown-menu .dropdown-item{
@@ -64,44 +71,36 @@
     background-color: #8B2588;
 	cursor:pointer;
 }
+
 .navbar-light .navbar-brand {
-	color:#363636;		
+	color:#fff;	
+	font-weight: 700;
 	height: auto;
+	font-size: 24px;
+}
+.navbar-light .navbar-brand span {
+	color:#fca756;	
+}
+.navbar-light .navbar-brand i{
+	background-color: #FE8F01;
+	color: #fff;
+	padding: 5px;
+	
 }
 .navbar-light .navbar-brand:hover {
- 	color:#1F81BF;
+ 	color:#FE8F01;
 }
 .navbar-light .navbar-brand img{
 	
 }
+
+
 .navbar-toggler i{
-	color: #000;
+	color: #fff;
 	font-size: 30px;
 }
 
 
-.carousel-caption{
-	display: grid !important;
-	align-content: center;
-	height: 100%;
-}
-.carousel-item{
-	/*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
-}
-
-
-
-/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
-.carousel .carousel-item {
-  height: 500px;
-}
-.carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
-}
 
 
 
